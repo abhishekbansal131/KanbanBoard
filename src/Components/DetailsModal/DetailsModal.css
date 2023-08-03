@@ -1,0 +1,18 @@
+.show-button{
+    width: 100%;
+    /* margin-left: 20%; */
+}
+.close-button{
+    margin-left: 43%;
+}
+.editable{
+    display:flex;
+    flex-direction: column;
+}
+.card-head{
+    color:rgb(89, 99, 135) !important;
+    font-weight: 700 !important;
+}
+span{
+    font-weight: 600;
+}

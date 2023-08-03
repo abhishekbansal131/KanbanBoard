@@ -1,0 +1,83 @@
+.editable{
+    width: 100%;
+}
+form{
+    border-radius: 10vw !important;
+}
+
+.editable_display{
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    cursor: default;
+}
+.card-head{
+    text-align: center;
+    color: black !important;
+    font-weight: normal !important;
+    /* margin-left: 17%; */
+}
+
+.data-input{
+    display: flex;
+}
+label{
+    width:12vw;
+}
+
+.editable_display:hover{
+    background-color: #ccc ;
+}
+
+.editable_edit{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.editable_edit input{
+    border-radius: 2vw !important;
+    outline: none;
+    border: 1px solid rgb(141, 185, 234) !important;
+    padding: 10px;
+    font-size: 1rem;
+}
+textarea{
+    border-radius: 1vw;
+    outline: none;
+    border: 1px solid rgb(141, 185, 234);
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.editable_edit_footer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.editable_edit_footer button{
+    outline: none;
+    border: none;
+    color: black !important;
+    background-color: #0dcaf0 !important;
+    transition: 200ms;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editable_edit_footer button:hover{
+    background-color: #31d2f2;
+}
+
+.editable_edit_footer svg{
+    cursor: pointer;
+}
+
+label{
+    font-size: 17px;
+    font-weight: 600;
+}

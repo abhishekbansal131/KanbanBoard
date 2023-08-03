@@ -1,0 +1,28 @@
+.app_navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 75, 124);
+    height: 80px;   
+    font-size: 25px;
+    position: sticky;
+}
+
+.nav-links:hover{
+    color: white;
+}
+
+.nav-heading{
+    font-family: 'Kablammo', cursive;
+    color: white;
+    font-size: 25px;
+}
+.nav-heading:hover{
+    color: white;
+}
+.nav-links{
+    color: white;
+    font-size: 20px;
+}
